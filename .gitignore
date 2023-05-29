@@ -1,7 +1,7 @@
 **/__pycache__
 *.pyc
-venv
-.pytest_cache
+venv/
+.pytest_cache/
 sqldiff.exe
 sqlite3.exe
 sqlite3_analyzer.exe
