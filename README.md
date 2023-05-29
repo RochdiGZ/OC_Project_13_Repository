@@ -56,7 +56,7 @@ Dans le reste de la documentation sur le développement local, il est supposé q
 #### Base de données
 
 - `cd /path/to/Python-OC-Lettings-FR`
-- Ouvrir une session shell `sqlite3`
+- Ouvrir une session shell `.\sqlite3.exe`
 - Se connecter à la base de données `.open oc-lettings-site.sqlite3`
 - Afficher les tables dans la base de données `.tables`
 - Afficher les colonnes dans le tableau des profils, `pragma table_info(Python-OC-Lettings-FR_profile);`
