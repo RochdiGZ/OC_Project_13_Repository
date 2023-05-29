@@ -56,6 +56,9 @@ Dans le reste de la documentation sur le développement local, il est supposé q
 #### Base de données
 
 - `cd /path/to/Python-OC-Lettings-FR`
+- Télécharger les outils SQLite via https://www.sqlite.org/2023/sqlite-tools-win32-x86-3420000.zip
+- Décompresser le fichier sqlite-tools-win32-x86-3420000.zip
+- Copier les trois fichiers `sqldiff.exe` `sqlite3.exe` `sqlite3_analyzer.exe` vers `Python-OC-Lettings-FR`
 - Ouvrir une session shell `.\sqlite3.exe`
 - Se connecter à la base de données `.open oc-lettings-site.sqlite3`
 - Afficher les tables dans la base de données `.tables`
